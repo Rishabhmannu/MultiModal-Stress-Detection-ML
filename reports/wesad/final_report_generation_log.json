@@ -1,0 +1,313 @@
+{
+  "generation_results": {
+    "successful": [
+      "S10",
+      "S11",
+      "S13",
+      "S14",
+      "S15",
+      "S16",
+      "S17",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7",
+      "S8",
+      "S9"
+    ],
+    "failed": [],
+    "total_subjects": 15,
+    "start_time": "2025-08-22T00:10:37.345913",
+    "reports_generated": [
+      {
+        "subject_id": "S10",
+        "file_path": "../results/wesad/reports/individual_subjects/S10_clinical_report.pdf",
+        "file_size_mb": 1.2,
+        "pages": 4
+      },
+      {
+        "subject_id": "S11",
+        "file_path": "../results/wesad/reports/individual_subjects/S11_clinical_report.pdf",
+        "file_size_mb": 1.2,
+        "pages": 4
+      },
+      {
+        "subject_id": "S13",
+        "file_path": "../results/wesad/reports/individual_subjects/S13_clinical_report.pdf",
+        "file_size_mb": 1.19,
+        "pages": 4
+      },
+      {
+        "subject_id": "S14",
+        "file_path": "../results/wesad/reports/individual_subjects/S14_clinical_report.pdf",
+        "file_size_mb": 1.2,
+        "pages": 4
+      },
+      {
+        "subject_id": "S15",
+        "file_path": "../results/wesad/reports/individual_subjects/S15_clinical_report.pdf",
+        "file_size_mb": 1.2,
+        "pages": 4
+      },
+      {
+        "subject_id": "S16",
+        "file_path": "../results/wesad/reports/individual_subjects/S16_clinical_report.pdf",
+        "file_size_mb": 1.18,
+        "pages": 4
+      },
+      {
+        "subject_id": "S17",
+        "file_path": "../results/wesad/reports/individual_subjects/S17_clinical_report.pdf",
+        "file_size_mb": 1.19,
+        "pages": 4
+      },
+      {
+        "subject_id": "S2",
+        "file_path": "../results/wesad/reports/individual_subjects/S2_clinical_report.pdf",
+        "file_size_mb": 1.18,
+        "pages": 4
+      },
+      {
+        "subject_id": "S3",
+        "file_path": "../results/wesad/reports/individual_subjects/S3_clinical_report.pdf",
+        "file_size_mb": 1.18,
+        "pages": 4
+      },
+      {
+        "subject_id": "S4",
+        "file_path": "../results/wesad/reports/individual_subjects/S4_clinical_report.pdf",
+        "file_size_mb": 1.17,
+        "pages": 4
+      },
+      {
+        "subject_id": "S5",
+        "file_path": "../results/wesad/reports/individual_subjects/S5_clinical_report.pdf",
+        "file_size_mb": 1.17,
+        "pages": 4
+      },
+      {
+        "subject_id": "S6",
+        "file_path": "../results/wesad/reports/individual_subjects/S6_clinical_report.pdf",
+        "file_size_mb": 1.2,
+        "pages": 4
+      },
+      {
+        "subject_id": "S7",
+        "file_path": "../results/wesad/reports/individual_subjects/S7_clinical_report.pdf",
+        "file_size_mb": 1.19,
+        "pages": 4
+      },
+      {
+        "subject_id": "S8",
+        "file_path": "../results/wesad/reports/individual_subjects/S8_clinical_report.pdf",
+        "file_size_mb": 1.18,
+        "pages": 4
+      },
+      {
+        "subject_id": "S9",
+        "file_path": "../results/wesad/reports/individual_subjects/S9_clinical_report.pdf",
+        "file_size_mb": 1.19,
+        "pages": 4
+      }
+    ],
+    "end_time": "2025-08-22T00:11:14.790750",
+    "total_duration": "0:00:37.444837 (37.4 seconds)"
+  },
+  "validation_results": {
+    "file_validation": {
+      "S10": "ACCESSIBLE",
+      "S11": "ACCESSIBLE",
+      "S13": "ACCESSIBLE",
+      "S14": "ACCESSIBLE",
+      "S15": "ACCESSIBLE",
+      "S16": "ACCESSIBLE",
+      "S17": "ACCESSIBLE",
+      "S2": "ACCESSIBLE",
+      "S3": "ACCESSIBLE",
+      "S4": "ACCESSIBLE",
+      "S5": "ACCESSIBLE",
+      "S6": "ACCESSIBLE",
+      "S7": "ACCESSIBLE",
+      "S8": "ACCESSIBLE",
+      "S9": "ACCESSIBLE"
+    },
+    "content_validation": {
+      "reports_accessible": 15,
+      "expected_reports": 15,
+      "completion_rate": 100.0
+    },
+    "quality_metrics": {
+      "total_size_mb": 17.82,
+      "average_size_mb": 1.19,
+      "size_range_mb": "1.17 - 1.20",
+      "consistent_sizing": true
+    },
+    "delivery_status": "COMPLETE"
+  },
+  "final_summary": {
+    "generation_results": {
+      "successful": [
+        "S10",
+        "S11",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9"
+      ],
+      "failed": [],
+      "total_subjects": 15,
+      "start_time": "2025-08-22T00:10:37.345913",
+      "reports_generated": [
+        {
+          "subject_id": "S10",
+          "file_path": "../results/wesad/reports/individual_subjects/S10_clinical_report.pdf",
+          "file_size_mb": 1.2,
+          "pages": 4
+        },
+        {
+          "subject_id": "S11",
+          "file_path": "../results/wesad/reports/individual_subjects/S11_clinical_report.pdf",
+          "file_size_mb": 1.2,
+          "pages": 4
+        },
+        {
+          "subject_id": "S13",
+          "file_path": "../results/wesad/reports/individual_subjects/S13_clinical_report.pdf",
+          "file_size_mb": 1.19,
+          "pages": 4
+        },
+        {
+          "subject_id": "S14",
+          "file_path": "../results/wesad/reports/individual_subjects/S14_clinical_report.pdf",
+          "file_size_mb": 1.2,
+          "pages": 4
+        },
+        {
+          "subject_id": "S15",
+          "file_path": "../results/wesad/reports/individual_subjects/S15_clinical_report.pdf",
+          "file_size_mb": 1.2,
+          "pages": 4
+        },
+        {
+          "subject_id": "S16",
+          "file_path": "../results/wesad/reports/individual_subjects/S16_clinical_report.pdf",
+          "file_size_mb": 1.18,
+          "pages": 4
+        },
+        {
+          "subject_id": "S17",
+          "file_path": "../results/wesad/reports/individual_subjects/S17_clinical_report.pdf",
+          "file_size_mb": 1.19,
+          "pages": 4
+        },
+        {
+          "subject_id": "S2",
+          "file_path": "../results/wesad/reports/individual_subjects/S2_clinical_report.pdf",
+          "file_size_mb": 1.18,
+          "pages": 4
+        },
+        {
+          "subject_id": "S3",
+          "file_path": "../results/wesad/reports/individual_subjects/S3_clinical_report.pdf",
+          "file_size_mb": 1.18,
+          "pages": 4
+        },
+        {
+          "subject_id": "S4",
+          "file_path": "../results/wesad/reports/individual_subjects/S4_clinical_report.pdf",
+          "file_size_mb": 1.17,
+          "pages": 4
+        },
+        {
+          "subject_id": "S5",
+          "file_path": "../results/wesad/reports/individual_subjects/S5_clinical_report.pdf",
+          "file_size_mb": 1.17,
+          "pages": 4
+        },
+        {
+          "subject_id": "S6",
+          "file_path": "../results/wesad/reports/individual_subjects/S6_clinical_report.pdf",
+          "file_size_mb": 1.2,
+          "pages": 4
+        },
+        {
+          "subject_id": "S7",
+          "file_path": "../results/wesad/reports/individual_subjects/S7_clinical_report.pdf",
+          "file_size_mb": 1.19,
+          "pages": 4
+        },
+        {
+          "subject_id": "S8",
+          "file_path": "../results/wesad/reports/individual_subjects/S8_clinical_report.pdf",
+          "file_size_mb": 1.18,
+          "pages": 4
+        },
+        {
+          "subject_id": "S9",
+          "file_path": "../results/wesad/reports/individual_subjects/S9_clinical_report.pdf",
+          "file_size_mb": 1.19,
+          "pages": 4
+        }
+      ],
+      "end_time": "2025-08-22T00:11:14.790750",
+      "total_duration": "0:00:37.444837 (37.4 seconds)"
+    },
+    "validation_results": {
+      "file_validation": {
+        "S10": "ACCESSIBLE",
+        "S11": "ACCESSIBLE",
+        "S13": "ACCESSIBLE",
+        "S14": "ACCESSIBLE",
+        "S15": "ACCESSIBLE",
+        "S16": "ACCESSIBLE",
+        "S17": "ACCESSIBLE",
+        "S2": "ACCESSIBLE",
+        "S3": "ACCESSIBLE",
+        "S4": "ACCESSIBLE",
+        "S5": "ACCESSIBLE",
+        "S6": "ACCESSIBLE",
+        "S7": "ACCESSIBLE",
+        "S8": "ACCESSIBLE",
+        "S9": "ACCESSIBLE"
+      },
+      "content_validation": {
+        "reports_accessible": 15,
+        "expected_reports": 15,
+        "completion_rate": 100.0
+      },
+      "quality_metrics": {
+        "total_size_mb": 17.82,
+        "average_size_mb": 1.19,
+        "size_range_mb": "1.17 - 1.20",
+        "consistent_sizing": true
+      },
+      "delivery_status": "COMPLETE"
+    },
+    "summary_generated": "2025-08-22T00:11:14.791143",
+    "final_status": "COMPLETE"
+  },
+  "fixes_applied": [
+    "Missing wrist_hr_mean column handled",
+    "Variable scope issues resolved",
+    "Robust error handling added",
+    "Data availability checking implemented",
+    "JSON serialization issues fixed"
+  ],
+  "system_info": {
+    "python_version": "3.9",
+    "processing_date": "2025-08-22T00:11:14.791259",
+    "dataset_source": "WESAD multimodal dataset",
+    "visualization_engine": "matplotlib with 300 DPI output"
+  }
+}

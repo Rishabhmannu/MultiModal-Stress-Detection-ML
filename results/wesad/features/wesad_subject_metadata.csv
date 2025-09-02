@@ -1,0 +1,16 @@
+subject_id,age,height_cm,weight_kg,gender,dominant_hand,coffee_today,coffee_last_hour,sports_today,smoker,smoke_last_hour,feel_ill,additional_notes,data_quality_issues
+S2,27,175,80,male,right,no,no,no,no,no,no,The RespiBAN temperature sensor was not fully attached throughout the entire duration of the study protocol.,True
+S3,27,173,69,male,right,no,no,no,no,no,no,"During the baseline condition, the subject was sitting in a sunny workplace. Subject provided a valence label of 7 after the stress condition, claiming that he was looking forward to the next condition and was therefore cheerful.",False
+S4,25,175,90,male,right,no,no,no,no,no,no,-,False
+S5,35,189,80,male,right,yes,no,no,no,no,no,Subject might have fallen asleep during the first meditation.,False
+S6,27,170,66,male,right,yes,no,no,yes,no,no,Subject claimed that he had a stressfull week and hence the study was rather relaxing for him. Stress condition / TSST interview part: subject was not really stressed as he encountered many interviews in the weeks before.,True
+S7,28,184,74,male,right,no,no,yes,no,no,no,-,False
+S8,27,172,64,female,left,yes,no,yes,no,no,no,"Subject had already a rather stressful day, prior to the study. Subject felt rather cold in the room where the stress condition was carried out.",False
+S9,26,181,75,male,right,no,no,no,no,no,yes,-,False
+S10,28,178,76,male,right,no,no,no,no,no,no,-,False
+S11,26,171,54,female,right,yes,no,no,no,no,no,-,False
+S13,28,181,82,male,right,no,no,no,no,no,no,-,False
+S14,27,180,80,male,right,no,no,no,no,no,no,-,False
+S15,28,186,83,male,right,no,no,no,no,no,no,Subject didn't really believe the cover story of the stress condition (TSST).,False
+S16,24,184,69,male,right,no,no,no,no,no,no,Subject felt rather cold in the room where the stress condition was carried out.,False
+S17,29,165,55,female,right,no,no,no,no,no,no,The RespiBAN temperature sensor was not fully attached throughout the entire duration of the study protocol.,True

@@ -1,0 +1,150 @@
+{
+  "dataset_info": {
+    "name": "WESAD Emotion Classification",
+    "total_samples": 1441,
+    "classes": 4,
+    "class_names": [
+      "Amusement",
+      "Baseline",
+      "Meditation",
+      "Stress"
+    ],
+    "class_mapping": {
+      "Amusement": 0,
+      "Baseline": 1,
+      "Meditation": 2,
+      "Stress": 3
+    },
+    "data_source": "WESAD Dataset - Wearable Stress and Affect Detection"
+  },
+  "feature_engineering": {
+    "original_features": 77,
+    "selected_features": 18,
+    "reduction_percentage": 76.6,
+    "selection_methods": [
+      "Multicollinearity reduction",
+      "ANOVA F-test",
+      "Variance threshold"
+    ],
+    "scaling_method": "StandardScaler (Z-score normalization)",
+    "scale_ratio_original": "3,638:1 (critical scaling needed)"
+  },
+  "selected_features": {
+    "feature_names": [
+      "chest_acc_min",
+      "chest_eda_scr_count",
+      "chest_eda_std",
+      "chest_emg_power_ratio",
+      "chest_hr_max",
+      "chest_hr_mean",
+      "chest_hr_min",
+      "wrist_acc_max",
+      "wrist_acc_min",
+      "wrist_acc_std",
+      "wrist_acc_x_std",
+      "wrist_acc_z_std",
+      "wrist_bvp_hr_range",
+      "wrist_bvp_hr_std",
+      "wrist_bvp_max",
+      "wrist_bvp_min",
+      "wrist_bvp_std",
+      "wrist_eda_std"
+    ],
+    "feature_names_short": [
+      "acc_min",
+      "eda_scr_count",
+      "eda_std",
+      "emg_power_ratio",
+      "hr_max",
+      "hr_mean",
+      "hr_min",
+      "acc_max",
+      "acc_min",
+      "acc_std",
+      "acc_x_std",
+      "acc_z_std",
+      "bvp_hr_range",
+      "bvp_hr_std",
+      "bvp_max",
+      "bvp_min",
+      "bvp_std",
+      "eda_std"
+    ],
+    "feature_count": 18,
+    "physiological_categories": {
+      "cardiac": [
+        "chest_hr_max",
+        "chest_hr_mean",
+        "chest_hr_min",
+        "wrist_bvp_hr_range",
+        "wrist_bvp_hr_std"
+      ],
+      "activity": [
+        "chest_acc_min",
+        "wrist_acc_max",
+        "wrist_acc_min",
+        "wrist_acc_std",
+        "wrist_acc_x_std",
+        "wrist_acc_z_std"
+      ],
+      "arousal": [
+        "chest_eda_scr_count",
+        "chest_eda_std",
+        "wrist_eda_std"
+      ],
+      "muscle": [
+        "chest_emg_power_ratio"
+      ],
+      "vascular": [
+        "wrist_bvp_hr_range",
+        "wrist_bvp_hr_std",
+        "wrist_bvp_max",
+        "wrist_bvp_min",
+        "wrist_bvp_std"
+      ]
+    }
+  },
+  "data_preprocessing": {
+    "missing_values_removed": [
+      "chest_resp_mean",
+      "chest_resp_std",
+      "chest_resp_min",
+      "chest_resp_max"
+    ],
+    "zero_variance_removed": [
+      "chest_resp_rate",
+      "chest_resp_rate_std"
+    ],
+    "correlation_threshold": 0.95,
+    "highly_correlated_pairs_removed": 23,
+    "window_size_seconds": 60,
+    "sampling_rates": {
+      "chest_sensors": "700 Hz",
+      "wrist_sensors": "4-64 Hz (variable)"
+    }
+  },
+  "model_requirements": {
+    "required_sensors": {
+      "chest": [
+        "ECG/HR",
+        "EDA",
+        "EMG",
+        "Accelerometer",
+        "Temperature"
+      ],
+      "wrist": [
+        "BVP/PPG",
+        "EDA",
+        "Accelerometer",
+        "Temperature"
+      ]
+    },
+    "preprocessing_steps": [
+      "Extract 60-second windows",
+      "Calculate statistical features",
+      "Apply StandardScaler normalization",
+      "Handle missing values (forward fill/interpolation)"
+    ],
+    "prediction_frequency": "Real-time or 60-second intervals"
+  }
+}

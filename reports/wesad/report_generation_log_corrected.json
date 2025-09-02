@@ -1,0 +1,83 @@
+{
+  "generation_results": {
+    "successful": [],
+    "failed": [
+      "S10 (file too small: 5964 bytes)",
+      "S11 (file too small: 5877 bytes)",
+      "S13 (file too small: 5972 bytes)",
+      "S14 (file too small: 5871 bytes)",
+      "S15 (file too small: 5960 bytes)",
+      "S16 (file too small: 5874 bytes)",
+      "S17 (file too small: 5879 bytes)",
+      "S2 (file too small: 5867 bytes)",
+      "S3 (file too small: 5971 bytes)",
+      "S4 (file too small: 5975 bytes)",
+      "S5 (file too small: 5974 bytes)",
+      "S6 (file too small: 5865 bytes)",
+      "S7 (file too small: 5876 bytes)",
+      "S8 (file too small: 5877 bytes)",
+      "S9 (file too small: 5865 bytes)"
+    ],
+    "total_subjects": 15,
+    "start_time": "2025-08-22T00:01:40.038198",
+    "reports_generated": [],
+    "end_time": "2025-08-22T00:01:54.800217",
+    "total_duration": "0:00:14.762019 (14.8 seconds)"
+  },
+  "validation_results": {
+    "file_validation": {},
+    "content_validation": {
+      "reports_accessible": 0,
+      "expected_reports": 15,
+      "completion_rate": 0.0
+    },
+    "quality_metrics": {},
+    "delivery_status": "INCOMPLETE"
+  },
+  "final_summary": {
+    "generation_results": {
+      "successful": [],
+      "failed": [
+        "S10 (file too small: 5964 bytes)",
+        "S11 (file too small: 5877 bytes)",
+        "S13 (file too small: 5972 bytes)",
+        "S14 (file too small: 5871 bytes)",
+        "S15 (file too small: 5960 bytes)",
+        "S16 (file too small: 5874 bytes)",
+        "S17 (file too small: 5879 bytes)",
+        "S2 (file too small: 5867 bytes)",
+        "S3 (file too small: 5971 bytes)",
+        "S4 (file too small: 5975 bytes)",
+        "S5 (file too small: 5974 bytes)",
+        "S6 (file too small: 5865 bytes)",
+        "S7 (file too small: 5876 bytes)",
+        "S8 (file too small: 5877 bytes)",
+        "S9 (file too small: 5865 bytes)"
+      ],
+      "total_subjects": 15,
+      "start_time": "2025-08-22T00:01:40.038198",
+      "reports_generated": [],
+      "end_time": "2025-08-22T00:01:54.800217",
+      "total_duration": "0:00:14.762019 (14.8 seconds)"
+    },
+    "validation_results": {
+      "file_validation": {},
+      "content_validation": {
+        "reports_accessible": 0,
+        "expected_reports": 15,
+        "completion_rate": 0.0
+      },
+      "quality_metrics": {},
+      "delivery_status": "INCOMPLETE"
+    },
+    "summary_generated": "2025-08-22T00:01:54.800373",
+    "final_status": "INCOMPLETE"
+  },
+  "system_info": {
+    "python_version": "3.9",
+    "reportlab_available": true,
+    "processing_date": "2025-08-22T00:01:54.800427",
+    "dataset_source": "WESAD multimodal dataset",
+    "fix_applied": "condition_labels variable scope and timedelta serialization"
+  }
+}

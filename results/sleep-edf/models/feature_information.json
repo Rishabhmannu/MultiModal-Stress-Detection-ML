@@ -1,0 +1,86 @@
+{
+  "clean_features": [
+    "EEG Fpz-Cz_delta_rel_power",
+    "EEG Fpz-Cz_theta_rel_power",
+    "EEG Fpz-Cz_alpha_rel_power",
+    "EEG Fpz-Cz_beta_rel_power",
+    "EEG Pz-Oz_delta_rel_power",
+    "EEG Pz-Oz_theta_rel_power",
+    "EEG Pz-Oz_alpha_rel_power",
+    "EEG Pz-Oz_beta_rel_power",
+    "EOG horizontal_mean",
+    "age",
+    "sex"
+  ],
+  "original_features": [
+    "EEG Fpz-Cz_delta_power",
+    "EEG Fpz-Cz_delta_rel_power",
+    "EEG Fpz-Cz_theta_power",
+    "EEG Fpz-Cz_theta_rel_power",
+    "EEG Fpz-Cz_alpha_power",
+    "EEG Fpz-Cz_alpha_rel_power",
+    "EEG Fpz-Cz_beta_power",
+    "EEG Fpz-Cz_beta_rel_power",
+    "EEG Pz-Oz_delta_rel_power",
+    "EEG Pz-Oz_theta_rel_power",
+    "EEG Pz-Oz_alpha_rel_power",
+    "EEG Pz-Oz_beta_rel_power",
+    "EOG horizontal_mean",
+    "age",
+    "sex"
+  ],
+  "removed_features": [
+    "EEG Fpz-Cz_delta_power",
+    "EEG Fpz-Cz_theta_power",
+    "EEG Fpz-Cz_alpha_power",
+    "EEG Fpz-Cz_beta_power"
+  ],
+  "feature_count": 11,
+  "total_samples": 275,
+  "feature_importance": [
+    {
+      "feature": "EEG Pz-Oz_delta_rel_power",
+      "importance": 0.8499822474174159
+    },
+    {
+      "feature": "EEG Fpz-Cz_alpha_rel_power",
+      "importance": 0.1227774880974118
+    },
+    {
+      "feature": "EOG horizontal_mean",
+      "importance": 0.02421126396257608
+    },
+    {
+      "feature": "EEG Pz-Oz_alpha_rel_power",
+      "importance": 0.0030290005225960806
+    },
+    {
+      "feature": "EEG Fpz-Cz_delta_rel_power",
+      "importance": 0.0
+    },
+    {
+      "feature": "EEG Fpz-Cz_theta_rel_power",
+      "importance": 0.0
+    },
+    {
+      "feature": "EEG Fpz-Cz_beta_rel_power",
+      "importance": 0.0
+    },
+    {
+      "feature": "EEG Pz-Oz_theta_rel_power",
+      "importance": 0.0
+    },
+    {
+      "feature": "EEG Pz-Oz_beta_rel_power",
+      "importance": 0.0
+    },
+    {
+      "feature": "age",
+      "importance": 0.0
+    },
+    {
+      "feature": "sex",
+      "importance": 0.0
+    }
+  ]
+}

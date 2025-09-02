@@ -1,0 +1,20 @@
+{
+  "study_overview": {
+    "total_subjects": 78,
+    "total_recordings": 197,
+    "age_range": "18-101",
+    "gender_distribution": "85/112"
+  },
+  "clinical_findings": {
+    "primary_biomarker": "Wake Percentage",
+    "diagnostic_auc": 1.0,
+    "clinical_impact": "HIGH",
+    "sleep_efficiency_difference": 60.02164950926246
+  },
+  "statistical_results": {
+    "sensitivity": 1.0,
+    "specificity": 1.0,
+    "risk_stratification_p_value": 1.8765265025177192e-42,
+    "strong_correlations_found": 67
+  }
+}

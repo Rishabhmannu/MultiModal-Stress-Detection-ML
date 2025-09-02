@@ -1,0 +1,15 @@
+{
+  "dataset_name": "Enhanced Sleep-EDF Dataset with Metadata",
+  "creation_date": "2025-08-16 15:47:45",
+  "total_samples": 197,
+  "total_features": 58,
+  "samples_with_metadata": 0,
+  "studies": {
+    "SC_Study": 153,
+    "ST_Study": 44
+  },
+  "demographics": {
+    "age_range": "N/A",
+    "gender_distribution": {}
+  }
+}

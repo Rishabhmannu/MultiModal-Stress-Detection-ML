@@ -1,0 +1,23 @@
+[server]
+# Increase file upload limit for large WESAD .pkl files (800MB+)
+maxUploadSize = 2000  # 2GB limit
+maxMessageSize = 2000  # 2GB message limit
+
+# Performance optimizations
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+# Disable usage stats collection
+gatherUsageStats = false
+
+[theme]
+# Professional color scheme
+primaryColor = "#2E86AB"
+backgroundColor = "#FFFFFF" 
+secondaryBackgroundColor = "#F8F9FA"
+textColor = "#212529"
+
+[client]
+# Show error details for debugging
+showErrorDetails = true

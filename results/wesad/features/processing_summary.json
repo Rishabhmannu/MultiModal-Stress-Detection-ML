@@ -1,0 +1,152 @@
+{
+  "S2": {
+    "windows_extracted": 92,
+    "conditions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "status": "success"
+  },
+  "S3": {
+    "windows_extracted": 93,
+    "conditions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "status": "success"
+  },
+  "S4": {
+    "windows_extracted": 97,
+    "conditions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "status": "success"
+  },
+  "S5": {
+    "windows_extracted": 98,
+    "conditions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "status": "success"
+  },
+  "S6": {
+    "windows_extracted": 96,
+    "conditions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "status": "success"
+  },
+  "S7": {
+    "windows_extracted": 96,
+    "conditions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "status": "success"
+  },
+  "S8": {
+    "windows_extracted": 97,
+    "conditions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "status": "success"
+  },
+  "S9": {
+    "windows_extracted": 97,
+    "conditions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "status": "success"
+  },
+  "S10": {
+    "windows_extracted": 99,
+    "conditions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "status": "success"
+  },
+  "S11": {
+    "windows_extracted": 96,
+    "conditions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "status": "success"
+  },
+  "S13": {
+    "windows_extracted": 96,
+    "conditions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "status": "success"
+  },
+  "S14": {
+    "windows_extracted": 95,
+    "conditions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "status": "success"
+  },
+  "S15": {
+    "windows_extracted": 96,
+    "conditions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "status": "success"
+  },
+  "S16": {
+    "windows_extracted": 96,
+    "conditions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "status": "success"
+  },
+  "S17": {
+    "windows_extracted": 97,
+    "conditions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "status": "success"
+  }
+}

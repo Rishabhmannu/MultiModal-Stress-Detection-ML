@@ -1,0 +1,687 @@
+{
+  "training_summary": {
+    "total_models": 8,
+    "successful_models": 8,
+    "training_times": {
+      "Random Forest": 0.054511,
+      "Gradient Boosting": 0.024825,
+      "Logistic Regression": 0.012253,
+      "SVM (Linear)": 0.00098,
+      "SVM (RBF)": 0.00102,
+      "Neural Network": 0.023623,
+      "Naive Bayes": 0.00079,
+      "XGBoost": 0.052822
+    },
+    "best_models": {
+      "accuracy": "Random Forest",
+      "f1_score": "Random Forest",
+      "roc_auc": "Random Forest"
+    }
+  },
+  "test_results": {
+    "Random Forest": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          16,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    "Gradient Boosting": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          16,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    "Logistic Regression": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          16,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    "SVM (Linear)": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          16,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    "SVM (RBF)": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          16,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    "Neural Network": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          16,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    "Naive Bayes": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          16,
+          0
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    },
+    "XGBoost": {
+      "accuracy": 0.95,
+      "precision": 0.96,
+      "recall": 0.95,
+      "f1": 0.9519713261648747,
+      "roc_auc": 0.96875,
+      "confusion_matrix": [
+        [
+          15,
+          1
+        ],
+        [
+          0,
+          4
+        ]
+      ]
+    }
+  },
+  "cv_results": {
+    "Random Forest": {
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "precision": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recall": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "f1": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roc_auc": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "Gradient Boosting": {
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "precision": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recall": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "f1": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roc_auc": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "Logistic Regression": {
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "precision": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recall": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "f1": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roc_auc": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "SVM (Linear)": {
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "precision": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recall": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "f1": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roc_auc": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "SVM (RBF)": {
+      "accuracy": {
+        "mean": 0.9875,
+        "std": 0.024999999999999998,
+        "scores": [
+          1.0,
+          1.0,
+          0.9375,
+          1.0,
+          1.0
+        ]
+      },
+      "precision": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recall": {
+        "mean": 0.95,
+        "std": 0.09999999999999999,
+        "scores": [
+          1.0,
+          1.0,
+          0.75,
+          1.0,
+          1.0
+        ]
+      },
+      "f1": {
+        "mean": 0.9714285714285715,
+        "std": 0.05714285714285716,
+        "scores": [
+          1.0,
+          1.0,
+          0.8571428571428571,
+          1.0,
+          1.0
+        ]
+      },
+      "roc_auc": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "Neural Network": {
+      "accuracy": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "precision": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recall": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "f1": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "roc_auc": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "Naive Bayes": {
+      "accuracy": {
+        "mean": 0.975,
+        "std": 0.030618621784789725,
+        "scores": [
+          1.0,
+          1.0,
+          0.9375,
+          1.0,
+          0.9375
+        ]
+      },
+      "precision": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recall": {
+        "mean": 0.9,
+        "std": 0.1224744871391589,
+        "scores": [
+          1.0,
+          1.0,
+          0.75,
+          1.0,
+          0.75
+        ]
+      },
+      "f1": {
+        "mean": 0.9428571428571428,
+        "std": 0.06998542122237654,
+        "scores": [
+          1.0,
+          1.0,
+          0.8571428571428571,
+          1.0,
+          0.8571428571428571
+        ]
+      },
+      "roc_auc": {
+        "mean": 0.95,
+        "std": 0.06123724356957945,
+        "scores": [
+          1.0,
+          1.0,
+          0.875,
+          1.0,
+          0.875
+        ]
+      }
+    },
+    "XGBoost": {
+      "accuracy": {
+        "mean": 0.9875,
+        "std": 0.024999999999999998,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          0.9375,
+          1.0
+        ]
+      },
+      "precision": {
+        "mean": 0.96,
+        "std": 0.07999999999999999,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          0.8,
+          1.0
+        ]
+      },
+      "recall": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "f1": {
+        "mean": 0.9777777777777779,
+        "std": 0.04444444444444447,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          0.8888888888888888,
+          1.0
+        ]
+      },
+      "roc_auc": {
+        "mean": 0.9916666666666666,
+        "std": 0.016666666666666698,
+        "scores": [
+          1.0,
+          1.0,
+          1.0,
+          0.9583333333333333,
+          1.0
+        ]
+      }
+    }
+  },
+  "pipeline_config": {
+    "data_info": {
+      "train_samples": 80,
+      "test_samples": 20,
+      "features": 26,
+      "feature_names": [
+        "rem_latency_min",
+        "EMG submental_std",
+        "duration_hours",
+        "EEG Pz-Oz_gamma_rel_power",
+        "sleep_latency_min",
+        "sleep_efficiency",
+        "waso_min",
+        "EEG Fpz-Cz_gamma_rel_power",
+        "EEG Pz-Oz_delta_power",
+        "EEG Fpz-Cz_gamma_power",
+        "deep_sleep_percentage",
+        "EMG submental_mean",
+        "EOG horizontal_rms",
+        "EEG Fpz-Cz_delta_power",
+        "EEG Pz-Oz_delta_rel_power",
+        "Unknown_duration_min",
+        "REM_percentage",
+        "light_sleep_percentage",
+        "EEG Fpz-Cz_beta_rel_power",
+        "EEG Fpz-Cz_alpha_power",
+        "EEG Pz-Oz_alpha_rel_power",
+        "sleep_efficiency_poor",
+        "N4_percentage",
+        "REM_duration_min",
+        "EEG Pz-Oz_alpha_power",
+        "N3_percentage"
+      ],
+      "train_class_dist": {
+        "0": 62,
+        "1": 18
+      },
+      "test_class_dist": {
+        "0": 16,
+        "1": 4
+      }
+    },
+    "preprocessing": {
+      "scaler_type": "StandardScaler",
+      "scaler_fitted": true,
+      "feature_selection": "clinical_aware",
+      "n_features_original": 51,
+      "n_features_final": 26,
+      "protected_features_kept": 13
+    },
+    "cross_validation": {
+      "type": "StratifiedKFold",
+      "n_splits": 5,
+      "shuffle": true,
+      "random_state": 42
+    },
+    "evaluation_metrics": [
+      "accuracy",
+      "precision",
+      "recall",
+      "f1",
+      "roc_auc",
+      "precision_recall_auc",
+      "balanced_accuracy"
+    ],
+    "model_params": {
+      "random_state": 42,
+      "n_jobs": -1
+    }
+  }
+}

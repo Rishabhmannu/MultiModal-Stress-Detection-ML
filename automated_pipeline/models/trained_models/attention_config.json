@@ -1,0 +1,11 @@
+{
+  "model_config": {
+    "chest_dim": 43,
+    "wrist_dim": 35,
+    "demo_dim": 3,
+    "hidden_dim": 64,
+    "num_heads": 4,
+    "num_classes": 4
+  },
+  "test_accuracy": 0.826
+}

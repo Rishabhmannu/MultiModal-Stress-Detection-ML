@@ -1,0 +1,108 @@
+{
+  "timestamp": "2025-08-17T01:42:06.579465",
+  "dataset_info": {
+    "total_samples": 275,
+    "train_samples": 192,
+    "test_samples": 83,
+    "features_used": 11,
+    "class_distribution": {
+      "healthy_sc": 46,
+      "sleep_issues_st": 37
+    }
+  },
+  "model_performance": {
+    "Naive Bayes": {
+      "test_performance": {
+        "accuracy": 0.8192771084337349,
+        "f1_score": 0.8194889447901496,
+        "precision": 0.8199394067498061,
+        "recall": 0.8192771084337349,
+        "roc_auc": 0.8813160987074031
+      },
+      "cross_validation": {
+        "accuracy_mean": 0.8642105263157894,
+        "accuracy_std": 0.061998123463693565,
+        "f1_mean": 0.8516503267973856,
+        "f1_std": 0.06837560582358036,
+        "roc_auc_mean": 0.9019191919191918,
+        "roc_auc_std": 0.06425903873206876
+      },
+      "confusion_matrix": {
+        "true_negatives": 38,
+        "false_positives": 8,
+        "false_negatives": 7,
+        "true_positives": 30
+      }
+    },
+    "Decision Tree (Conservative)": {
+      "test_performance": {
+        "accuracy": 0.8313253012048193,
+        "f1_score": 0.8313253012048193,
+        "precision": 0.8313253012048193,
+        "recall": 0.8313253012048193,
+        "roc_auc": 0.8639835487661575
+      },
+      "cross_validation": {
+        "accuracy_mean": 0.8902631578947368,
+        "accuracy_std": 0.0601020600123534,
+        "f1_mean": 0.8807447540419677,
+        "f1_std": 0.06182590726249329,
+        "roc_auc_mean": 0.9430176767676766,
+        "roc_auc_std": 0.046830229359344264
+      },
+      "confusion_matrix": {
+        "true_negatives": 39,
+        "false_positives": 7,
+        "false_negatives": 7,
+        "true_positives": 30
+      }
+    },
+    "Random Forest (Conservative)": {
+      "test_performance": {
+        "accuracy": 0.8192771084337349,
+        "f1_score": 0.8190109088585895,
+        "precision": 0.8189851605001567,
+        "recall": 0.8192771084337349,
+        "roc_auc": 0.9488836662749707
+      },
+      "cross_validation": {
+        "accuracy_mean": 0.8955263157894737,
+        "accuracy_std": 0.04739838233736933,
+        "f1_mean": 0.8732376283846872,
+        "f1_std": 0.06488219949490821,
+        "roc_auc_mean": 0.9610606060606062,
+        "roc_auc_std": 0.023759607038840936
+      },
+      "confusion_matrix": {
+        "true_negatives": 39,
+        "false_positives": 7,
+        "false_negatives": 8,
+        "true_positives": 29
+      }
+    },
+    "Decision Tree (Very Simple)": {
+      "test_performance": {
+        "accuracy": 0.8313253012048193,
+        "f1_score": 0.8313253012048193,
+        "precision": 0.8313253012048193,
+        "recall": 0.8313253012048193,
+        "roc_auc": 0.8713278495887191
+      },
+      "cross_validation": {
+        "accuracy_mean": 0.9007894736842104,
+        "accuracy_std": 0.05996363163713129,
+        "f1_mean": 0.8905830753353972,
+        "f1_std": 0.06301666470311933,
+        "roc_auc_mean": 0.9384469696969697,
+        "roc_auc_std": 0.04873623703337641
+      },
+      "confusion_matrix": {
+        "true_negatives": 39,
+        "false_positives": 7,
+        "false_negatives": 7,
+        "true_positives": 30
+      }
+    }
+  },
+  "best_model": "Decision Tree (Conservative)"
+}

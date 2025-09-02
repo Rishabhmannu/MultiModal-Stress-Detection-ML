@@ -1,0 +1,18 @@
+{
+  "dataset_name": "Combined Sleep-EDF Dataset",
+  "creation_date": "2025-08-16 15:38:22",
+  "total_samples": 197,
+  "total_features": 51,
+  "studies": {
+    "SC_Study": {
+      "samples": 153,
+      "description": "Sleep Cassette - Healthy subjects"
+    },
+    "ST_Study": {
+      "samples": 44,
+      "description": "Sleep Telemetry - Mild sleep difficulty subjects"
+    }
+  },
+  "missing_values": 0,
+  "files_with_hypnograms": 197
+}

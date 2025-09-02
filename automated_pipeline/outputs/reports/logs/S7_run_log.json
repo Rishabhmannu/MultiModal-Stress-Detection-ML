@@ -1,0 +1,55 @@
+{
+  "subject_id": "S7",
+  "adapter_meta": {
+    "primary_model": "attention",
+    "n_windows": 96,
+    "class_names": [
+      "Baseline",
+      "Stress",
+      "Amusement",
+      "Meditation"
+    ],
+    "meta": {
+      "loaded_models": [
+        "tabpfn",
+        "attention",
+        "rf"
+      ],
+      "tabpfn_error": "X has 5 features, but TabPFNClassifier is expecting 81 features as input."
+    },
+    "has_attention": true,
+    "models_present": [
+      "attention"
+    ]
+  },
+  "timings_sec": {
+    "slice_subject": 0.002930879592895508,
+    "load_models": 0.05258607864379883,
+    "preprocess_features": 0.0033102035522460938,
+    "predict_and_adapter": 0.0011818408966064453,
+    "generate_pdf": 0.6664118766784668
+  },
+  "warnings": [],
+  "errors": [],
+  "config": {
+    "primary_model": "tabpfn",
+    "use_attention": true,
+    "include_legacy_models": false,
+    "models_dir": "models/trained_models",
+    "scalers_dir": "models/scalers",
+    "output_dir": "outputs/reports",
+    "figures_subdir": "figures",
+    "enable_pdf_validation": true,
+    "page_style": {
+      "margin_mm": 16.0,
+      "figure_dpi": 300
+    },
+    "file_prefix": null,
+    "class_names": [
+      "Baseline",
+      "Stress",
+      "Amusement",
+      "Meditation"
+    ]
+  }
+}

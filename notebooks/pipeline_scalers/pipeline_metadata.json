@@ -1,0 +1,103 @@
+{
+  "creation_date": "2025-09-02T18:49:55.725095",
+  "source_notebook": "4-wesad-classification.txt",
+  "total_features": 18,
+  "scalers_created": {
+    "chest_scaler": {
+      "file_path": "pipeline_scalers/chest_scaler.pkl",
+      "n_features": 7,
+      "features": [
+        "chest_acc_min",
+        "chest_eda_scr_count",
+        "chest_eda_std",
+        "chest_emg_power_ratio",
+        "chest_hr_max",
+        "chest_hr_mean",
+        "chest_hr_min"
+      ]
+    },
+    "wrist_scaler": {
+      "file_path": "pipeline_scalers/wrist_scaler.pkl",
+      "n_features": 11,
+      "features": [
+        "wrist_acc_max",
+        "wrist_acc_min",
+        "wrist_acc_std",
+        "wrist_acc_x_std",
+        "wrist_acc_z_std",
+        "wrist_bvp_hr_range",
+        "wrist_bvp_hr_std",
+        "wrist_bvp_max",
+        "wrist_bvp_min",
+        "wrist_bvp_std",
+        "wrist_eda_std"
+      ]
+    },
+    "label_encoder": {
+      "file_path": "pipeline_scalers/label_encoder.pkl",
+      "n_features": 4,
+      "features": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "feature_mapping": {
+    "chest_features": [
+      "chest_acc_min",
+      "chest_eda_scr_count",
+      "chest_eda_std",
+      "chest_emg_power_ratio",
+      "chest_hr_max",
+      "chest_hr_mean",
+      "chest_hr_min"
+    ],
+    "wrist_features": [
+      "wrist_acc_max",
+      "wrist_acc_min",
+      "wrist_acc_std",
+      "wrist_acc_x_std",
+      "wrist_acc_z_std",
+      "wrist_bvp_hr_range",
+      "wrist_bvp_hr_std",
+      "wrist_bvp_max",
+      "wrist_bvp_min",
+      "wrist_bvp_std",
+      "wrist_eda_std"
+    ],
+    "demo_features": [],
+    "total_selected": [
+      "chest_acc_min",
+      "chest_eda_scr_count",
+      "chest_eda_std",
+      "chest_emg_power_ratio",
+      "chest_hr_max",
+      "chest_hr_mean",
+      "chest_hr_min",
+      "wrist_acc_max",
+      "wrist_acc_min",
+      "wrist_acc_std",
+      "wrist_acc_x_std",
+      "wrist_acc_z_std",
+      "wrist_bvp_hr_range",
+      "wrist_bvp_hr_std",
+      "wrist_bvp_max",
+      "wrist_bvp_min",
+      "wrist_bvp_std",
+      "wrist_eda_std"
+    ]
+  },
+  "original_condition_mapping": {
+    "Amusement": "0",
+    "Baseline": "1",
+    "Meditation": "2",
+    "Stress": "3"
+  },
+  "data_info": {
+    "train_samples": 1152,
+    "test_samples": 289,
+    "feature_selection_method": "ANOVA F-test + Variance threshold"
+  }
+}

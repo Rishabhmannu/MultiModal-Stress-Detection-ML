@@ -1,0 +1,18 @@
+{
+  "model_class": "CrossModalAttention",
+  "config": {
+    "chest_dim": 43,
+    "wrist_dim": 35,
+    "demo_dim": 3,
+    "hidden_dim": 64,
+    "num_heads": 4,
+    "num_classes": 4
+  },
+  "performance": {
+    "test_accuracy": 0.8576388888888888,
+    "best_val_acc": 0.8576388888888888,
+    "training_time": 4.4,
+    "weights_source": "best_model_state"
+  },
+  "file_path": "attention_model.pth"
+}

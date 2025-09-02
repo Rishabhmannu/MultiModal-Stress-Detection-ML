@@ -1,0 +1,21 @@
+{
+  "subject_id": "S7",
+  "session_date": "2025-09-02",
+  "primary_model": "attention",
+  "n_windows": 96,
+  "class_names": [
+    "Baseline",
+    "Stress",
+    "Amusement",
+    "Meditation"
+  ],
+  "generated_at": "2025-09-02T04:54:26",
+  "model_meta": {
+    "loaded_models": [
+      "tabpfn",
+      "attention",
+      "rf"
+    ],
+    "tabpfn_error": "X has 5 features, but TabPFNClassifier is expecting 81 features as input."
+  }
+}

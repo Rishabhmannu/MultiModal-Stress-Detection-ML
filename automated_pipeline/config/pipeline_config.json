@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "created_date": "2025-09-02T01:29:33.712987",
+  "dataset_info": {
+    "training_subjects": 15,
+    "training_windows": 1441,
+    "conditions": 2,
+    "features_per_window": 81
+  },
+  "processing": {
+    "input_format": "raw_pkl_files",
+    "output_format": "pdf_reports_and_json",
+    "batch_processing": true,
+    "real_time_processing": true,
+    "web_interface": true
+  },
+  "retraining": {
+    "mode": "manual",
+    "min_new_subjects": 10,
+    "retrain_threshold_accuracy_drop": 0.05
+  },
+  "alerts": {
+    "low_confidence_threshold": 0.5,
+    "data_drift_threshold": 0.1,
+    "performance_drop_threshold": 0.05
+  }
+}

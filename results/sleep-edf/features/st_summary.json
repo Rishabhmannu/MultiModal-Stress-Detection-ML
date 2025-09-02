@@ -1,0 +1,12 @@
+{
+  "study_name": "ST",
+  "n_files": 44,
+  "n_features": 50,
+  "files_with_hypnograms": 44,
+  "date_created": "2025-08-16 15:38:22",
+  "feature_categories": {
+    "sleep_architecture": 18,
+    "eeg_power": 20,
+    "signal_stats": 6
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "population_norms": {
+    "Baseline": {
+      "chest_hr_mean": {
+        "mean": 72.78568997709579,
+        "std": 10.787152272961968,
+        "median": 71.74230291701458,
+        "q25": 65.65383933968644,
+        "q75": 78.17696054024822,
+        "q90": 87.36848283061458,
+        "q95": 95.4940615139315,
+        "min": 51.095912598122666,
+        "max": 106.1976772224821,
+        "count": 575,
+        "description": "Heart Rate (Chest) - Mean"
+      },
+      "chest_hr_std": {
+        "mean": 6.175024088461931,
+        "std": 2.646871514100046,
+        "median": 5.641473254782101,
+        "q25": 4.522921975984941,
+        "q75": 7.288641690328906,
+        "q90": 8.774144484896254,
+        "q95": 11.184271796898575,
+        "min": 2.273935392317907,
+        "max": 20.879206300473093,
+        "count": 575,
+        "description": "Heart Rate (Chest) - Variability"
+      },
+      "chest_eda_mean": {
+        "mean": 3.9093619466737,
+        "std": 2.9235170111141326,
+        "median": 2.8152164597757103,
+        "q25": 1.6155114881301063,
+        "q75": 6.004028195030358,
+        "q90": 7.076516305765203,
+        "q95": 11.188990441137591,
+        "min": 0.739096461918569,
+        "max": 12.954053720692595,
+        "count": 575,
+        "description": "Electrodermal Activity - Mean"
+      },
+      "chest_eda_std": {
+        "mean": 0.024228236093851732,
+        "std": 0.04320087291493282,
+        "median": 0.0108485120502242,
+        "q25": 0.00494208101361575,
+        "q75": 0.0205649123151972,
+        "q90": 0.053660008666368546,
+        "q95": 0.11206986238597372,
+        "min": 0.0014413244171869,
+        "max": 0.4334420286097807,
+        "count": 575,
+        "description": "Electrodermal Activity - Variability"
+      },
+      "chest_temp_mean": {
+        "mean": 33.45310953391304,
+        "std": 1.4984734276438816,
+        "median": 33.805412,
+        "q25": 33.3528405,
+        "q75": 34.360874,
+        "q90": 34.664888,
+        "q95": 34.7866945,
+        "min": 28.20185,
+        "max": 35.082085,
+        "count": 575,
+        "description": "Body Temperature - Mean"
+      },
+      "wrist_temp_mean": {
+        "mean": 33.34679652173913,
+        "std": 1.5857557266080013,
+        "median": 33.589333333333336,
+        "q25": 32.85775,
+        "q75": 34.312250000000006,
+        "q90": 35.16546666666667,
+        "q95": 35.68516666666666,
+        "min": 29.389000000000006,
+        "max": 35.928000000000004,
+        "count": 575,
+        "description": "Skin Temperature - Mean"
+      }
+    },
+    "Stress": {
+      "chest_hr_mean": {
+        "mean": 98.55458882356966,
+        "std": 19.59080970100585,
+        "median": 92.30394164768492,
+        "q25": 82.09187143113017,
+        "q75": 115.8796403565824,
+        "q90": 127.53742373122547,
+        "q95": 132.68345975086564,
+        "min": 68.77918071811511,
+        "max": 148.83233894508243,
+        "count": 321,
+        "description": "Heart Rate (Chest) - Mean"
+      },
+      "chest_hr_std": {
+        "mean": 8.213917598378103,
+        "std": 2.8762828266490947,
+        "median": 7.81926544286832,
+        "q25": 6.1928040230557,
+        "q75": 9.90442561219448,
+        "q90": 12.408755842314251,
+        "q95": 13.220989142842877,
+        "min": 2.959617230533554,
+        "max": 23.896317592729105,
+        "count": 321,
+        "description": "Heart Rate (Chest) - Variability"
+      },
+      "chest_eda_mean": {
+        "mean": 5.9366467460275025,
+        "std": 4.120169071473875,
+        "median": 4.266554747484917,
+        "q25": 3.1660250224840567,
+        "q75": 7.572986024967066,
+        "q90": 10.03259135864169,
+        "q95": 16.664893906988592,
+        "min": 1.1921133708052738,
+        "max": 20.128779773594516,
+        "count": 321,
+        "description": "Electrodermal Activity - Mean"
+      },
+      "chest_eda_std": {
+        "mean": 0.10852899475056266,
+        "std": 0.1558270641542867,
+        "median": 0.0546577470637634,
+        "q25": 0.025331413294861,
+        "q75": 0.1583059921931716,
+        "q90": 0.2351215074287773,
+        "q95": 0.2917021044171978,
+        "min": 0.003905115017034,
+        "max": 1.767117648375026,
+        "count": 321,
+        "description": "Electrodermal Activity - Variability"
+      },
+      "chest_temp_mean": {
+        "mean": 34.169924177570095,
+        "std": 1.0135531417622563,
+        "median": 34.348686,
+        "q25": 34.01465,
+        "q75": 34.666504,
+        "q90": 35.102825,
+        "q95": 35.512184,
+        "min": 31.06319,
+        "max": 35.630978,
+        "count": 321,
+        "description": "Body Temperature - Mean"
+      },
+      "wrist_temp_mean": {
+        "mean": 32.640108644859815,
+        "std": 1.0085917530763382,
+        "median": 32.79183333333334,
+        "q25": 32.290083333333335,
+        "q75": 33.255,
+        "q90": 33.76808333333333,
+        "q95": 33.95616666666667,
+        "min": 30.00408333333333,
+        "max": 34.45808333333334,
+        "count": 321,
+        "description": "Skin Temperature - Mean"
+      }
+    },
+    "Amusement": {
+      "chest_hr_mean": {
+        "mean": 73.0696653508594,
+        "std": 10.101574510600694,
+        "median": 73.1553436725885,
+        "q25": 65.55772285509596,
+        "q75": 81.95649447424367,
+        "q90": 86.95285873047946,
+        "q95": 88.14162456659693,
+        "min": 52.81546746647554,
+        "max": 90.79812277278845,
+        "count": 173,
+        "description": "Heart Rate (Chest) - Mean"
+      },
+      "chest_hr_std": {
+        "mean": 6.676928356165348,
+        "std": 2.5273096461006,
+        "median": 6.224051415061432,
+        "q25": 4.923792416785274,
+        "q75": 7.834963575775057,
+        "q90": 10.254864801091617,
+        "q95": 10.896504341814897,
+        "min": 2.294284721461885,
+        "max": 17.03134361115943,
+        "count": 173,
+        "description": "Heart Rate (Chest) - Variability"
+      },
+      "chest_eda_mean": {
+        "mean": 4.402894673324541,
+        "std": 3.0456757183233294,
+        "median": 3.1579491864555154,
+        "q25": 2.1791670654720567,
+        "q75": 6.306656911372799,
+        "q90": 8.302217921443994,
+        "q95": 11.597307919346113,
+        "min": 0.5828950239276134,
+        "max": 11.976258167146652,
+        "count": 173,
+        "description": "Electrodermal Activity - Mean"
+      },
+      "chest_eda_std": {
+        "mean": 0.028418948358053902,
+        "std": 0.03572121156871171,
+        "median": 0.0155360340836393,
+        "q25": 0.0094029751385392,
+        "q75": 0.031179934134231,
+        "q90": 0.06137606748940368,
+        "q95": 0.09748699751839912,
+        "min": 0.0015841588862289,
+        "max": 0.2304524657489467,
+        "count": 173,
+        "description": "Electrodermal Activity - Variability"
+      },
+      "chest_temp_mean": {
+        "mean": 34.09553934682081,
+        "std": 0.7925174387484787,
+        "median": 34.245674,
+        "q25": 33.534863,
+        "q75": 34.81519,
+        "q90": 34.971745,
+        "q95": 35.016794,
+        "min": 31.817715,
+        "max": 35.064537,
+        "count": 173,
+        "description": "Body Temperature - Mean"
+      },
+      "wrist_temp_mean": {
+        "mean": 32.61732442196532,
+        "std": 1.5079712958919878,
+        "median": 32.766375000000004,
+        "q25": 31.212499999999995,
+        "q75": 34.056333333333335,
+        "q90": 34.72716666666666,
+        "q95": 34.97451666666666,
+        "min": 29.946333333333335,
+        "max": 35.01499999999999,
+        "count": 173,
+        "description": "Skin Temperature - Mean"
+      }
+    },
+    "Meditation": {
+      "chest_hr_mean": {
+        "mean": 69.89954013354198,
+        "std": 8.466585725637287,
+        "median": 69.59505990176169,
+        "q25": 64.14580977622876,
+        "q75": 76.1799752576616,
+        "q90": 79.84728313735214,
+        "q95": 84.49736730166136,
+        "min": 49.11129228327176,
+        "max": 92.4982597931666,
+        "count": 372,
+        "description": "Heart Rate (Chest) - Mean"
+      },
+      "chest_hr_std": {
+        "mean": 7.513163671424173,
+        "std": 2.7837164161663845,
+        "median": 7.435870699837141,
+        "q25": 5.2113103715065225,
+        "q75": 9.63321543878888,
+        "q90": 11.250689867635543,
+        "q95": 12.480036969271183,
+        "min": 1.4006555674007426,
+        "max": 14.812678162483898,
+        "count": 372,
+        "description": "Heart Rate (Chest) - Variability"
+      },
+      "chest_eda_mean": {
+        "mean": 4.627552901328281,
+        "std": 3.0818707969379764,
+        "median": 3.537053626464016,
+        "q25": 2.5294459697238527,
+        "q75": 7.029144454804728,
+        "q90": 8.007457859992984,
+        "q95": 11.523474093233592,
+        "min": 0.4721497799884034,
+        "max": 13.343163329128492,
+        "count": 372,
+        "description": "Electrodermal Activity - Mean"
+      },
+      "chest_eda_std": {
+        "mean": 0.024986092974408007,
+        "std": 0.03661573741360145,
+        "median": 0.0118570924981375,
+        "q25": 0.0066251619126359,
+        "q75": 0.024768572073516376,
+        "q90": 0.061290341570405665,
+        "q95": 0.09499692686705309,
+        "min": 0.0013853648315481,
+        "max": 0.245238726772882,
+        "count": 372,
+        "description": "Electrodermal Activity - Variability"
+      },
+      "chest_temp_mean": {
+        "mean": 34.167053083333336,
+        "std": 0.8918605501362096,
+        "median": 34.2777165,
+        "q25": 33.9394635,
+        "q75": 34.8200085,
+        "q90": 34.9968407,
+        "q95": 35.03724075,
+        "min": 31.312952,
+        "max": 35.571785,
+        "count": 372,
+        "description": "Body Temperature - Mean"
+      },
+      "wrist_temp_mean": {
+        "mean": 32.018505712365595,
+        "std": 1.5150872052889124,
+        "median": 31.720416666666665,
+        "q25": 30.89229166666667,
+        "q75": 33.26233333333333,
+        "q90": 34.25989166666668,
+        "q95": 34.6791,
+        "min": 29.031666666666663,
+        "max": 35.22070833333333,
+        "count": 372,
+        "description": "Skin Temperature - Mean"
+      }
+    }
+  },
+  "stress_reactivity": {
+    "chest_hr_mean": {
+      "mean": 25.21905941199365,
+      "std": 19.715266601467675,
+      "median": 20.525578247692664,
+      "q25": 10.000219659018029,
+      "q75": 39.471725766537276,
+      "q90": 52.37072439100087,
+      "q95": 56.363162853218725,
+      "count": 15,
+      "description": "Stress Reactivity - Heart Rate (Chest) - Mean"
+    },
+    "chest_eda_mean": {
+      "mean": 2.064625602721349,
+      "std": 1.9081160706439801,
+      "median": 1.6247769756814605,
+      "q25": 0.9572357608801771,
+      "q75": 2.6333791337058945,
+      "q90": 4.499952369690332,
+      "q95": 5.845173294541774,
+      "count": 15,
+      "description": "Stress Reactivity - Electrodermal Activity - Mean"
+    },
+    "chest_temp_mean": {
+      "mean": 0.6975277180611198,
+      "std": 0.5774282853425395,
+      "median": 0.5401724928229683,
+      "q25": 0.3365613086825441,
+      "q75": 0.8769631261305406,
+      "q90": 1.1823306543659058,
+      "q95": 1.554962898044097,
+      "count": 15,
+      "description": "Stress Reactivity - Body Temperature - Mean"
+    }
+  },
+  "clinical_thresholds": {
+    "hr_stress_reactivity": {
+      "normal_max": 39.471725766537276,
+      "elevated_max": 52.37072439100087,
+      "high_min": 52.37072439100087,
+      "description": "Heart Rate Stress Response"
+    },
+    "eda_stress_reactivity": {
+      "normal_max": 2.6333791337058945,
+      "elevated_max": 4.499952369690332,
+      "high_min": 4.499952369690332,
+      "description": "Electrodermal Activity Stress Response"
+    },
+    "baseline_hr": {
+      "low_max": 65.65383933968644,
+      "normal_min": 65.65383933968644,
+      "normal_max": 78.17696054024822,
+      "high_min": 78.17696054024822,
+      "description": "Resting Heart Rate"
+    }
+  },
+  "population_context": {
+    "total_subjects": 15,
+    "total_sessions": 1441,
+    "age_range": {
+      "min": 24,
+      "max": 35,
+      "mean": 27.47883414295628
+    },
+    "gender_distribution": {
+      "male": 1151,
+      "female": 290
+    },
+    "bmi_stats": {
+      "mean": 23.125954198473284,
+      "std": 2.553411295722447
+    },
+    "study_protocol": {
+      "conditions": [
+        "Baseline",
+        "Stress",
+        "Amusement",
+        "Meditation"
+      ],
+      "windows_per_subject": 96
+    }
+  },
+  "risk_categories": {
+    "stress_reactivity": {
+      "normal": {
+        "min": 0,
+        "max": 75
+      },
+      "elevated": {
+        "min": 75,
+        "max": 90
+      },
+      "high": {
+        "min": 90,
+        "max": 100
+      }
+    },
+    "baseline_levels": {
+      "normal": {
+        "min": 25,
+        "max": 75
+      },
+      "low": {
+        "min": 0,
+        "max": 25
+      },
+      "high": {
+        "min": 75,
+        "max": 100
+      }
+    }
+  },
+  "clinical_metrics": {
+    "chest_hr_mean": "Heart Rate (Chest) - Mean",
+    "chest_hr_std": "Heart Rate (Chest) - Variability",
+    "wrist_hr_mean": "Heart Rate (Wrist) - Mean",
+    "chest_eda_mean": "Electrodermal Activity - Mean",
+    "chest_eda_std": "Electrodermal Activity - Variability",
+    "chest_temp_mean": "Body Temperature - Mean",
+    "wrist_temp_mean": "Skin Temperature - Mean",
+    "wrist_acc_magnitude_mean": "Physical Activity Level",
+    "wrist_acc_magnitude_std": "Movement Variability",
+    "chest_resp_mean": "Respiratory Rate",
+    "chest_resp_std": "Respiratory Variability"
+  },
+  "calculation_date": "2025-08-21T23:56:20.485885",
+  "dataset_version": "WESAD_processed_v1.0"
+}

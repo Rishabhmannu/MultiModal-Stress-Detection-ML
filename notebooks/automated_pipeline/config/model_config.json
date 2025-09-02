@@ -1,0 +1,58 @@
+{
+  "primary_model": "TabPFN",
+  "interpretable_model": "CrossModal_Attention",
+  "baseline_model": "RandomForest",
+  "performance_metrics": {
+    "TabPFN": {
+      "test_accuracy": 1.0,
+      "cv_mean": 0.9976878612716764,
+      "cv_std": 0.002831780049460347,
+      "training_time": 0.17862296104431152
+    },
+    "ExtraTrees": {
+      "test_accuracy": 0.9792387543252595,
+      "cv_mean": 0.9710848232289286,
+      "cv_std": 0.021924260490763774,
+      "training_time": 0.09784173965454102
+    },
+    "GradientBoost": {
+      "test_accuracy": 0.9792387543252595,
+      "cv_mean": 0.9618228256486088,
+      "cv_std": 0.025731245190924304,
+      "training_time": 3.7389590740203857
+    },
+    "LogisticReg": {
+      "test_accuracy": 0.8961937716262975,
+      "cv_mean": 0.9155262804140343,
+      "cv_std": 0.018791213770962305,
+      "training_time": 0.009296178817749023
+    },
+    "SVM_RBF": {
+      "test_accuracy": 0.9550173010380623,
+      "cv_mean": 0.9271071380561905,
+      "cv_std": 0.02081333392574101,
+      "training_time": 0.09123682975769043
+    },
+    "RandomForest": {
+      "test_accuracy": 0.9584775086505191,
+      "cv_mean": 0.9271071380561905,
+      "cv_std": 0.029340649430875724,
+      "training_time": 0.06974220275878906
+    },
+    "CrossModal_Attention": {
+      "test_accuracy": 0.9584775086505191,
+      "cv_mean": 0.8576388888888888,
+      "cv_std": 0.02,
+      "training_time": 4.4
+    }
+  },
+  "ensemble_weights": {
+    "TabPFN": 0.6,
+    "CrossModal_Attention": 0.4
+  },
+  "confidence_thresholds": {
+    "high_confidence": 0.8,
+    "medium_confidence": 0.6,
+    "low_confidence": 0.4
+  }
+}
